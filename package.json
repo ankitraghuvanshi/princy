@@ -1,20 +1,19 @@
 {
-  "name": "princy",
-  "description": "Fun way to learn more about Google!",
-  "version": "0.0.1",
-  "private": true,
-  "license": "Apache Version 2.0",
-  "author": "Google Inc.",
+  "name": "movie-wenhooks",
+  "version": "1.0.0",
+  "description": "diaglogflow test",
+  "main": "index.js",
   "scripts": {
-    "test": "index.js"
+    "start": "node index.js"
   },
+  "author": "swarup bam",
+  "license": "ISC",
   "dependencies": {
-    "actions-on-google": "2.0.0-alpha.4",
-    "firebase-admin": "^4.2.1",
-    "firebase-functions": "^0.5.7",
-    "dialogflow": "latest",
-    "dialogflow-fulfillment": "latest",
-    "request": "^2.85.0",
-    "sync-request": "6.0.0"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "unirest": "^0.5.1"
+  },
+  "engines": {
+    "node": "8.9.1"
   }
 }
